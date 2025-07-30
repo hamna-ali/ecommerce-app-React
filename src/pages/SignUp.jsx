@@ -1,14 +1,3 @@
-// function Signup() {
-//   return (
-//     <form>
-//       <input type="text" placeholder="Name" />
-//       <input type="email" placeholder="Email" />
-//       <input type="password" placeholder="Password" />
-//       <button>Sign Up</button>
-//     </form>
-//   );
-// }
-// export default Signup;
 import React from "react";
 import "./AuthForm.css";
 import logo from "../assets/images/logo.png"; // adjust path based on your file structure

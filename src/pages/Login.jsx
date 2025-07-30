@@ -1,14 +1,3 @@
-// function Login() {
-//   return (
-//     <form>
-//       <input type="email" placeholder="Email" />
-//       <input type="password" placeholder="Password" />
-//       <button>Login</button>
-//     </form>
-//   );
-// }
-// export default Login;
-
 import React from "react";
 import "./AuthForm.css";
 import logo from "../assets/images/logo.png"; // adjust path based on your file structure

@@ -1,20 +1,3 @@
-// import { Link } from 'react-router-dom';
-
-// function Navbar() {
-//   return (
-//     <nav className="bg-[#1b145c] text-white px-8 py-4 shadow-md">
-//     <h1 className="text-xl font-bold">E-Commerce Store</h1>
-//       <Link to="/">Home</Link>
-//       <Link to="/products">Products</Link>
-//       <Link to="/cart">Cart</Link>
-//       <Link to="/contact">Contact Us</Link>
-//       <Link to="/login">Login</Link>
-//       <Link to="/signup">Signup</Link>
-//     </nav>
-//   );
-// }
-// export default Navbar;
-
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";

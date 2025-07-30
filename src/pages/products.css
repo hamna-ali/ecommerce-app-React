@@ -81,29 +81,7 @@
 .buy-button:hover {
   background-color: darkorange;
 }
-/* .home-heading {
-  text-align: center;
-  margin-top: 20px;
-  font-size: 24px;
-  font-weight: 600;
-}
-.load-more-container {
-  text-align: center;
-  margin: 20px 0 40px;
-}
 
-.load-more-btn {
-  padding: 10px 20px;
-  background-color: navy;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  font-weight: bold;
-  cursor: pointer;
-}
-.load-more-btn:hover {
-  background-color: darkblue;
-} */
 .load-more-container {
   text-align: center;
   margin: 20px 0;
