@@ -1,0 +1,146 @@
+.cart-container {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+  background: #fff;
+  color: #1a1a1a;
+  min-height: calc(100vh - 160px); /* adjust based on navbar + footer height */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.cart-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+ .empty-cart {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #666;
+}
+
+ .empty-cart a {
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.empty-cart .continue-btn {
+  margin-top: 1rem;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #01011c9e; /* navy blue */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.cart-product {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  gap: 1.2rem;
+}
+
+.cart-image {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.cart-details {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  font-weight: 500;
+}
+
+.quantity-buttons button {
+  padding: 0.3rem 0.7rem;
+  background-color: #eee;
+  border: 1px solid #888;
+  margin: 0 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.quantity-buttons span {
+  margin: 0 5px;
+}
+
+.delete-icon {
+  color: red;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.cart-total {
+  text-align: right;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-top: 1px solid #ccc;
+  padding-top: 1rem;
+}
+
+.cart-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.continue-btn {
+  padding: 0.5rem 1.2rem;
+  border: 1px solid #0a0a5c;
+  background-color: white;
+  color: #0a0a5c;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.checkout-btn {
+  padding: 0.5rem 1.2rem;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.cart-popup {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: orange;
+  color: white;
+  padding: 16px 24px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  font-weight: 600;
+  z-index: 1000;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
